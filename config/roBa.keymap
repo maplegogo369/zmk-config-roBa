@@ -41,11 +41,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         exc {
             bindings = <&kp EXCLAMATION>;
             key-positions = <33 32>;
@@ -59,6 +54,31 @@
         win_u {
             bindings = <&kp LG(UP)>;
             key-positions = <1 35>;
+        };
+
+        win_d {
+            bindings = <&kp LG(DOWN_ARROW)>;
+            key-positions = <11 35>;
+        };
+
+        win_l {
+            bindings = <&kp LG(LEFT_ARROW)>;
+            key-positions = <35 10>;
+        };
+
+        win_r {
+            bindings = <&kp LG(RIGHT_ARROW)>;
+            key-positions = <35 12>;
+        };
+
+        ctrl_win_l {
+            bindings = <&kp LG(LC(LEFT_ARROW))>;
+            key-positions = <10 34>;
+        };
+
+        ctrl_win_r {
+            bindings = <&kp LG(LC(RIGHT_ARROW))>;
+            key-positions = <34 11>;
         };
     };
 
